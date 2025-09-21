@@ -1,0 +1,19 @@
+# src/tasks.yaml
+
+research_task:
+  description: "Conduct comprehensive research on the topic: '{topic}'. Gather key facts, statistics, recent developments, and notable players in the field."
+  expected_output: >
+    A detailed summary of the research findings with a list of all sources (URLs) used.
+    This summary should be a solid block of text containing all the gathered information.
+
+analysis_task:
+  description: "Analyze the research summary provided. Identify the main trends, significant patterns, potential challenges, and future opportunities."
+  expected_output: >
+    A structured analysis of the topic, including a list of 3-5 key insights and a brief explanation for each.
+    The analysis should be based ONLY on the information from the research summary.
+
+report_task:
+  description: "Using the provided analysis, write a professional research report. The report should start with a brief executive summary, followed by the detailed analysis and key insights, and conclude with a list of the original sources."
+  expected_output: >
+    A complete, well-formatted research report in Markdown format. The report must include an executive summary,
+    the detailed analysis of key insights, and a 'Sources' section listing all the URLs from the initial research.
